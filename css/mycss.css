@@ -11,7 +11,7 @@ article {
 .entry-title {
 	text-align: center;
 }
-img,#meta-2,#search-2,#recent-posts-2,#recent-comments-2,#archives-2,#categories-2,#calendar-4 {
+.header-image,#meta-2,#search-2,#recent-posts-2,#recent-comments-2,#archives-2,#categories-2,#calendar-4 {
 	border-radius: 7px;
 	box-shadow: 0px 0px 8px white;
 }
