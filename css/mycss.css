@@ -18,3 +18,16 @@ article {
 .katex {
 	color: yellowgreen;
 }
+.entry-content {
+	margin-right: 30px;
+}
+.entry-footer {
+	margin-left: 10px;
+}
+body {
+	background-image: url('https://cdn.jsdelivr.net/gh/wangstong/mycdn/images/bg.png');
+	background-position: center top;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
