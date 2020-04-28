@@ -1,4 +1,4 @@
- .auto-bg,
+.auto-bg,
 .auto-bg:after {
     position: fixed;
     width: 100%;
@@ -16,11 +16,10 @@
     left: 0px;
     color: transparent;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: center;
     background-repeat: none;
     opacity: 0;
     z-index: -999;
-    -webkit-backface-visibility: hidden;
     -webkit-animation: imageAnimation 36s linear infinite 0s;
     -moz-animation: imageAnimation 36s linear infinite 0s;
     -o-animation: imageAnimation 36s linear infinite 0s;
@@ -204,4 +203,28 @@
     100% {
         opacity: 0
     }
+}
+
+.auto-bg li:nth-child(1) {
+    background-image: url(https://cdn.jsdelivr.net/gh/wangstong/mycdn/images/bg1.png);
+}
+
+.auto-bg li:nth-child(2) {
+    background-image: url(https://cdn.jsdelivr.net/gh/wangstong/mycdn/images/bg2.png);
+}
+
+.auto-bg li:nth-child(3) {
+    background-image: url(https://cdn.jsdelivr.net/gh/wangstong/mycdn/images/bg3.png);
+}
+
+.auto-bg li:nth-child(4) {
+    background-image: url(https://cdn.jsdelivr.net/gh/wangstong/mycdn/images/bg4.png);
+}
+
+.auto-bg li:nth-child(5) {
+    background-image: url(https://cdn.jsdelivr.net/gh/wangstong/mycdn/images/bg5.png);
+}
+
+.auto-bg li:nth-child(6) {
+    background-image: url(https://cdn.jsdelivr.net/gh/wangstong/mycdn/images/bg6.png);
 }
