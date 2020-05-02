@@ -1,4 +1,4 @@
-<script>
+!function() {
     //canvas元素相关
     //创建canvas元素，并设置canvas元素的id
     var canvas = document.createElement("canvas"),
@@ -144,4 +144,4 @@
             draw();
         },
         100)
-</script>
+}
